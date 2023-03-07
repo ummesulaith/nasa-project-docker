@@ -1,8 +1,7 @@
 const express = require('express'),
-    planetsRouter = require('./routes/planets/planets.router'),
-    path = require('path'),
+    planetsRouter = require('./planets/planets.router'),
     app = express(),
-    launchesRouter = require('./routes/launches/launches.router');
+    launchesRouter = require('./launches/launches.router');
 
 api = express.Router()
 app.use('/planets', planetsRouter)

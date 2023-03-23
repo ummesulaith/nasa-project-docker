@@ -23,5 +23,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+.env
+
 
 #password of db - OYjp9XPtWGOV7VkXand username - nasa-api

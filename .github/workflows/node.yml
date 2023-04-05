@@ -12,7 +12,7 @@ jobs:
       matrix:
         node-version: [17.x, 18.x]
    runs-on: ubuntu-latest
-    steps:
+   steps:
       - uses: actions/checkout@v2
       - name: Use Node.js version ${{ matrix.node-version }}
         uses: actions/setup-node@v2
